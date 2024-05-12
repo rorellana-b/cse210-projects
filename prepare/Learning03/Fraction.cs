@@ -1,19 +1,17 @@
-public class Fractions
+public class Fraction
 {
     private int _top;
     private int _bottom;
 
-    Fractions fractions = new Fractions();
-
-    public Fractions(){
+    public Fraction(){
         _bottom = 1;
         _top= 1;
     }
-    public Fractions(int bottom){
-        _bottom = bottom;
-        _top = 1;
+    public Fraction(int top){
+        _top = top;
+        _bottom = 1;
     }
-    public Fractions(int bottom, int top){
+    public Fraction(int top, int bottom){
         _bottom = bottom;
         _top = top;
     }
